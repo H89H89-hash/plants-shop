@@ -1,0 +1,325 @@
+    //Header
+    a {
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .navbar {
+        position: relative;
+    }
+    
+    .logo {
+        position: absolute;
+        top: 40px;
+        left: 56px;
+        height: 36px;
+        width: 36px;
+    }
+    
+    .search {
+        position: absolute;
+        top: 40px;
+        left: 858px;
+    }
+    
+    .cart {
+        position: absolute;
+        top: 40px;
+        left: 918px;
+    }
+    
+    .sign-up {
+        position: absolute;
+        top: 40px;
+        left: 975.5px;
+        color: #156963;
+        font-family: 'nunito';
+    }
+    
+    .sign-in {
+        color: white;
+        font-family: 'nunito';
+    }
+    
+    .sign-container {
+        position: absolute;
+        top: 30px;
+        left: 1057px;
+        height: 36px;
+        width: 111px;
+        background-color: #156963;
+        padding-left: 32.5px;
+        padding-top: 8px;
+    }
+    
+    header {
+        display: flex;
+    }
+    
+    .heading {
+        position: absolute;
+        top: 186px;
+        left: 694px;
+        font-size: 68px;
+        color: #156963;
+        font-weight: 500;
+        font-family: 'Montserrat';
+        font-weight: medium;
+    }
+    
+    .subtittle {
+        font-family: 'Montserrat';
+        position: absolute;
+        top: 376px;
+        left: 694px;
+        width: 481px;
+        color: #2C1500;
+    }
+    
+    .next {
+        background-color: #156963;
+        width: 320px;
+        height: 160px;
+        .tittle {
+            color: white;
+        }
+    }
+    
+    .previous {
+        background-color: white;
+        border: none;
+        width: 320px;
+        height: 160px;
+    }
+    
+    .button-tittle {
+        display: flex;
+        width: 145px;
+        position: relative;
+        left: 50px;
+    }
+    
+    .tittle {
+        position: relative;
+        left: 3px;
+        font-size: 32px;
+    }
+    
+    .buttons {
+        display: flex;
+        position: absolute;
+        top: 545px;
+        left: 840px;
+        font-family: 'Montserrat';
+    }
+    
+    .next__tittle {
+        color: #83ADAA;
+    }
+    
+    // Main
+    .advantages_list {
+        display: flex;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    
+    .advantages_logo-and-tittle {
+        display: flex;
+    }
+    
+    .list-tittle {
+        margin-left: 32px;
+        font-size: 16px;
+        color: #156963;
+    }
+    
+    .Advantages_element {
+        border: 1px solid #E0E0E0;
+        width: 268px;
+    }
+    
+    .list-description {
+        font-size: 10px;
+    }
+    
+    .list-icon {
+        padding-top: 22px;
+        padding-left: 16px;
+    }
+    
+    .list-tittle,
+    .list-description {
+        font-family: 'Montserrat';
+    }
+    
+    .Advantages_element {
+        margin-left: 32px;
+    }
+    
+    .plants_header {
+        font-weight: 500;
+    }
+    
+    .plants_line {
+        border: none;
+        height: 1px;
+        background-color: black;
+    }
+    
+    .plants_first {
+        display: flex;
+        padding-left: 180px;
+        font-family: 'montserrat';
+    }
+    
+    #plant {
+        height: 31px;
+        margin-top: 30px;
+        margin-left: 758px;
+    }
+    
+    .plants_list {
+        display: flex;
+        margin-left: 115px;
+    }
+    
+    .plants_plant {
+        font-family: 'montserrat';
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+    .ttl {
+        font-weight: 400;
+    }
+    
+    .prs {
+        font-weight: 700;
+    }
+    
+    .select-plant {
+        font-weight: 500;
+    }
+    
+    .why {
+        margin-top: 80px;
+    }
+    
+    .why_tittle {
+        font-family: 'montserrat';
+    }
+    
+    .why_description {
+        font-family: 'montserrat';
+        font-size: 16px;
+        width: 506.69px;
+    }
+    
+    .why_first {
+        margin-left: 184px;
+    }
+    
+    .why_two {
+        margin-left: 184px;
+    }
+    
+    .why_one {
+        margin-top: -200px;
+        margin-left: 90px;
+    }
+    
+    .get_container {
+        position: relative;
+        background-color: #F3F4F6;
+        width: 1177px;
+        height: 360px;
+        top: 81.1px;
+        left: 12%;
+    }
+    
+    .get_tittle {
+        position: absolute;
+        top: 88px;
+        left: 97px;
+        font-size: 40px;
+        font-family: 'montserrat';
+    }
+    
+    .get_visit {
+        font-family: 'nunito';
+        background-color: #156963;
+        color: white;
+        width: 152px;
+        height: 40px;
+        position: absolute;
+        top: 232px;
+        left: 97px;
+        padding-left: 50px;
+        padding-top: 17px;
+    }
+    
+    .get_image {
+        position: absolute;
+        background-color: transparent;
+        top: 1px;
+        left: 700px;
+    }
+    
+    // Footer
+    .footer {
+        margin-top: 200px;
+    }
+    
+    .row {
+        margin-left: 10px;
+        margin-top: 60px;
+        margin-bottom: 71px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer_tittle {
+        text-transform: uppercase;
+        color: #156963;
+        font-family: 'Poppins';
+        font-weight: 500;
+    }
+    
+    .footer_PH,
+    .footer_PHI,
+    .footer_PE,
+    .footer_PEI,
+    .footer_name,
+    .footer_message {
+        font-family: 'work sans';
+    }
+    
+    .footer_PHI {
+        width: 500px;
+        color: #4F4F4F;
+    }
+    
+    .footer_col {
+        margin-left: 80px;
+    }
+    
+    .footer_PH,
+    .footer_PE {
+        font-weight: 500;
+    }
+    
+    .footer_submit {
+        margin-top: 14px;
+        font-family: 'raleway';
+        background-color: #156963;
+        border: transparent solid 1px;
+        width: 65px;
+        height: 65px;
+        font-size: 15px;
+        border-radius: 2px;
+        color: white;
+    }
